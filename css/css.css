@@ -28,13 +28,15 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
-    margin-top: 0; /* Elimina el margen superior */
+    margin-top: 0;
+    text-align: center;
 }
 
 h3 {
     font-size: 1.5em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold; 
+    font-weight: bold;
+    text-align: center;
 }
 
 p {
@@ -57,7 +59,7 @@ nav ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center; /* Agrega esta línea para alinear verticalmente los elementos */
+    align-items: center;
 }
 
 nav li {
@@ -65,14 +67,14 @@ nav li {
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 10px;
-    align-items: center; /* Agrega esta línea para alinear verticalmente los elementos */
+    align-items: center;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     padding: 0 10px;
-    color: white; /* Agrega esta línea para que los elementos sean blancos */
+    color: white;
 }
 
 nav a:hover {
@@ -95,67 +97,66 @@ nav a:hover {
 }
 
 #imagenpersonal {
-background-color: #B8B8B8;
-padding-top: 30px;
-padding-bottom: 30px;
-text-align: center;
+    background-color: #B8B8B8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 #imagenpersonal img {
-width: 25%;
-border-radius: 50%;
-border: 5px solid #5C7D8C;
+    width: 25%;
+    border-radius: 50%;
+    border: 5px solid #5C7D8C;
 }
 
 #datos {
-background-color: #B8B8B8;
-color: white;
-padding-top: 30px;
-padding-bottom: 30px;
-text-align: center;
+    background-color: #B8B8B8;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 #formacion {
-background-color: white;
-padding-top: 30px;
-padding-bottom: 30px;
-text-align: center;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 #aptitudes {
-background-color: #5C7D8C;
-color: white;
-padding-top: 30px;
-padding-bottom: 30px;
-text-align: center;
+    background-color: #5C7D8C;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 #aficiones {
-background-color: #5C7D8C;
-color: white;
-padding-top: 30px;
-padding-bottom: 30px;
-text-align: center;
+    background-color: #5C7D8C;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 #experiencia {
-background-color: #FFFFFF;
-padding-top: 30px;
-padding-bottom: 30px;
-text-align: center;
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 #idiomas {
-background-color: #FFFFFF;
-padding-top: 30px;
-padding-bottom: 30px;
-text-align: center;
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 #resumen {
-background-color: #FFFFFF;
-padding-top: 30px;
-padding-bottom: 30px;
-text-align: center;
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
-
