@@ -1,0 +1,177 @@
+@media screen and (max-width: 767px) {
+    h1 {
+    font-size: 3em;
+    height: auto;
+    margin-top: 50px;
+    }
+    
+    h2 {
+    font-size: 1.5em;
+    }
+    
+    h3 {
+    font-size: 1em;
+    }
+    
+    p {
+    font-size: 1em;
+    }
+    
+    #imagenpersonal img {
+    width: 80%;
+    }
+    
+    #nombre {
+    margin-top: 50px;
+    }
+    }
+
+    body {
+        background-image: url("../img/fondo-placa-circuitos-estilo-plano_52683-15669.avif");
+        background-size: cover; /* Ajusta la imagen al tamaño de la ventana del navegador sin distorsionarla */
+        background-position: center center; /* Centra la imagen en la ventana del navegador */
+    }
+    
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .container {
+        max-width: 1140px;
+        margin: auto;
+    }
+    
+    
+    h1 {
+        font-size: 6em;
+        font-family: 'Poppins', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        text-align: center;
+        height: 120px;
+    }
+    
+    h2 {
+        font-size: 2em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold; 
+    }
+    
+    p {
+        font-size: 1.2em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #barra {
+        background-color: #5C7D8C;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    nav {
+        padding: 0;
+    }
+    
+    
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav li {
+        margin-right: 20px;
+        font-size: 1.5em;
+        font-style: bold;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    
+    nav a:hover {
+        color: #ccc;
+    }
+    
+    
+    #nombre {
+        background-color: #5c5c5c;
+        margin-top: 100px;
+    }
+    
+    #contacto{
+        background-color: #B8B8B8;
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    #imagenpersonal {
+        background-color: #B8B8B8;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    
+    #imagenpersonal img {
+        width: 50%;
+        border-radius: 50%;
+        border: 5px solid #5C7D8C;
+    }
+    
+    
+    #datos {
+        background-color: #B8B8B8;
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    #formacion {
+        background-color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    #aptitudes {
+        background-color: #5C7D8C;
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    #aficiones {
+        background-color: #5C7D8C;
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    #experiencia {
+        background-color: #FFFFFF;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    #idiomas {
+        background-color: #FFFFFF;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    #resumen {
+        background-color: #FFFFFF;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
