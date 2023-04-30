@@ -1,60 +1,7 @@
-/* Media query para pantallas con un ancho máximo de 768px */
-@media only screen and (max-width: 768px) {
-
-    /* Ajustar el tamaño de fuente del título */
-    h1 {
-        font-size: 20px;
-        height: auto;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    /* Ajustar el tamaño de fuente de los encabezados h2 */
-    h2 {
-        font-size: auto;
-    }
-
-    /* Ajustar el tamaño de fuente de los encabezados h3 */
-    h3 {
-        font-size: auto;
-    }
-
-    /* Ajustar el ancho de los elementos de navegación */
-    nav li {
-        margin-right: 10px;
-        font-size: 1.2em;
-    }
-
-    /* Ajustar el tamaño de la imagen personal */
-    #imagenpersonal img {
-        width: 70%;
-    }
-
-    /* Ajustar el ancho de la sección "Datos personales" */
-    #datos {
-        max-width: 90%;
-        margin: auto;
-    }
-
-    /* Ajustar el ancho de la sección "Experiencia laboral" */
-    #experiencia {
-        max-width: 90%;
-        margin: auto;
-    }
-
-    /* Ajustar el ancho de los párrafos en la sección "Formación académica" */
-    #formacion p {
-        max-width: 90%;
-        margin: auto;
-    }
-}
-
-
-
 body {
     background-image: url("../img/fondo-placa-circuitos-estilo-plano_52683-15669.avif");
-    background-size: cover; /* Ajusta la imagen al tamaño de la ventana del navegador sin distorsionarla */
-    background-position: center center; /* Centra la imagen en la ventana del navegador */
+    background-size: cover;
+    background-position: center center;
 }
 
 .row {
@@ -63,24 +10,25 @@ body {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 100%;
     margin: auto;
+    padding: 0 15px;
 }
 
-
 h1 {
-    font-size: 6em;
+    font-size: 3.5em;
     font-family: 'Poppins', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
-    height: 120px;
+    margin-top: 70px;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.8em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
+    margin-top: 0; /* Elimina el margen superior */
 }
 
 h3 {
@@ -96,7 +44,7 @@ p {
 
 #barra {
     background-color: #5C7D8C;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -104,98 +52,110 @@ nav {
     padding: 0;
 }
 
-
-
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; /* Agrega esta línea para alinear verticalmente los elementos */
 }
 
 nav li {
     margin-right: 20px;
-    font-size: 1.5em;
-    font-style: bold;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    align-items: center; /* Agrega esta línea para alinear verticalmente los elementos */
 }
 
 nav a {
     color: white;
     text-decoration: none;
     padding: 0 10px;
+    color: white; /* Agrega esta línea para que los elementos sean blancos */
 }
 
 nav a:hover {
     color: #ccc;
 }
 
-
 #nombre {
     background-color: #5c5c5c;
-    margin-top: 100px;
-}
-
-#contacto{
-    background-color: #B8B8B8;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-#imagenpersonal {
-    background-color: #B8B8B8;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
-#imagenpersonal img {
-    width: 50%;
-    border-radius: 50%;
-    border: 5px solid #5C7D8C;
-}
-
-
-#datos {
+#contacto {
     background-color: #B8B8B8;
     color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#imagenpersonal {
+background-color: #B8B8B8;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
+}
+
+#imagenpersonal img {
+width: 25%;
+border-radius: 50%;
+border: 5px solid #5C7D8C;
+}
+
+#datos {
+background-color: #B8B8B8;
+color: white;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
 }
 
 #formacion {
-    background-color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
+background-color: white;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
 }
 
 #aptitudes {
-    background-color: #5C7D8C;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
+background-color: #5C7D8C;
+color: white;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
 }
 
 #aficiones {
-    background-color: #5C7D8C;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
+background-color: #5C7D8C;
+color: white;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
 }
 
 #experiencia {
-    background-color: #FFFFFF;
-    padding-top: 15px;
-    padding-bottom: 15px;
+background-color: #FFFFFF;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
 }
 
 #idiomas {
-    background-color: #FFFFFF;
-    padding-top: 15px;
-    padding-bottom: 15px;
+background-color: #FFFFFF;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
 }
 
 #resumen {
-    background-color: #FFFFFF;
-    padding-top: 15px;
-    padding-bottom: 15px;
+background-color: #FFFFFF;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
 }
+
